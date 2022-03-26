@@ -4,7 +4,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class FindDuplicateSpec extends AnyFlatSpec:
 
-    import FindDuplicate.*
+    import FindDuplicate.findDuplicate
 
     "findDuplicate" should "work with simple loop" in {
 
